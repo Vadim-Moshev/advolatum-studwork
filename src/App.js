@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Header from "./components/header";
+
 import MainPage from "./pages/MainPage";
 import Page2 from "./pages/page2";
 
@@ -9,7 +11,7 @@ import "./my_styles.css";
 function App() {
   return (
     <>
-      <header className="header"></header>
+      <Header />
 
       <BrowserRouter>
         <main className="main">
