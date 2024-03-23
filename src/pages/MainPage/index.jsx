@@ -7,7 +7,7 @@ import "./index.css";
 const MainPage = () => {
   return (
     <>
-      <Header />
+      <span>MainPage</span>
     </>
   );
 };
